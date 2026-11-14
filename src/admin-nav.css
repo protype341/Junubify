@@ -1,0 +1,4 @@
+.admin-review-nav { display: inline-flex; min-height: 40px; flex: 0 0 auto; align-items: center; justify-content: center; gap: 8px; padding: 0 12px; border: 1px solid rgba(112, 215, 163, .25); border-radius: 7px; color: #b7e9cc; background: rgba(112, 215, 163, .08); font-size: 11px; font-weight: 700; text-decoration: none; white-space: nowrap; }
+.admin-review-nav:hover, .admin-review-nav:focus-visible { border-color: rgba(112, 215, 163, .55); color: #f0f3ec; background: #18251f; }
+.admin-review-nav span { color: #70d7a3; }
+@media (max-width: 760px) { .admin-review-nav { min-height: 36px; padding: 0 8px; font-size: 10px; } }
